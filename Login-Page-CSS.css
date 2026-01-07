@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.boxed-text {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 50px 50px 50px 50px;
+    width: 300px;
+    padding-left: 45px;
+    background-color: gainsboro;
+
+}
+
+.inline-stuff {
+    display: inline;
+}
+
+.div-icon .material-symbols-outlined {
+    position: relative;
+    left: 175px;
+    bottom: 27px;
+    
+
+}
+
+#Login-button {
+    background-color: rgba(30, 151, 250, 0.856);
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 2px rgba(27, 27, 27, 0.959);
+    border-radius: 2px;
+    border: none;
+    outline: none;    
+}
+
+#Login-button:hover {
+    background-color: rgba(79, 167, 240, 0.856);;
+}
+
+.text-input {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 1.5rem;
+    box-shadow: 2px 2px 2px rgba(27, 27, 27, 0.959);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+#login-label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.red-hexagon-background {
+    background-image: url('../Login-Page-Project/red-hexagon-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.green-hexagon-background {
+    background-image: url('../Login-Page-Project/green-hexagon-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
